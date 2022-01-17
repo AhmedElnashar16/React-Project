@@ -1,0 +1,41 @@
+.topbar {
+    background: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.favoriteList {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+li {
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 2px solid white;
+}
